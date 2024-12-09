@@ -1,0 +1,127 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #0f1424;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.profile-card {
+  background-color: #5847eb;
+  border-radius: 15px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.profile-card h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.profile-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.timeframes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.timeframes button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.timeframes button.active,
+.timeframes button:hover {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: #1c1f4a;
+  border-radius: 15px;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card small {
+  color: #bbb;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.card * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+}
