@@ -42,9 +42,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JavaScript library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styling
 
 ### What I learned
 
@@ -52,7 +49,6 @@ While working on this project, I learned several key concepts and skills:
 
 - **Responsive Design**: I implemented a mobile-first approach using Flexbox and CSS Grid to ensure the layout adapts to various screen sizes, providing a seamless experience across devices.
   
-- **State Management**: I utilized React's state management to dynamically switch between daily, weekly, and monthly stats, enabling users to toggle between different views.
   
 - **CSS Variables**: Using CSS custom properties (variables) made it easier to manage and adjust the color scheme and layout in a flexible and efficient way.
 
