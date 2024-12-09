@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Paul-V-S-10/time-tracking-dashboard-main?tab=readme-ov-file#the-challenge)
+- Solution URL: https://github.com/Paul-V-S-10/time-tracking-dashboard-main?tab=readme-ov-file#the-challenge
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
